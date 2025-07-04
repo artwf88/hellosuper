@@ -1,6 +1,6 @@
 {
   "frame": {
-    "name": "h",
+    "name": "hellosuper",
     "version": "1",
     "iconUrl": "https://f-demo.vercel.app/logo.png",
     "homeUrl": "https://f-demo.vercel.app/logo.png",
@@ -9,5 +9,10 @@
     "primaryCategory": "games",
     "splashImageUrl": "https://f-demo.vercel.app/logo.png",
     "splashBackgroundColor": "#ffffff"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjY4MjU0MywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGRiODQ0RTg4RDg0ODc2YzJFQzA4RTQwZDQzZDIzYTc2OTY1MUU3NmEifQ",
+    "payload": "eyJkb21haW4iOiJoZWxsb3N1cGVyLWZpdmUudmVyY2VsLmFwcCJ9",
+    "signature": "MHhhYTZmNDE1MTgyYTNlYmUxZjQ5NjViZGUyMDU2YWYzMDk4YTJlNmM0M2FkODMwN2ExN2U1MmIzMTdiMDIwYTBlM2MwYjY2NjNhOGI0ZDE5Y2JjMjg4YjdjZjFiZDNmNjlhMGU0NDUxZTUyOWQzY2RhMzljYmU3ZjZmMWY4ZjNjMzFi"
   }
 }
