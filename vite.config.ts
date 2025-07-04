@@ -11,14 +11,14 @@ function fcFrameMeta(): Plugin {
     transformIndexHtml(html: string) {
       const config = {
         version: 'next',
-        imageUrl: 'TUNNEL/logo.png',
+        imageUrl: 'https://github.com/nicky2pc/f_demo/logo.png',
         button: {
           title: '🚩 Start',
           action: {
             type: 'launch_frame',
             name: 'HelloWorld',
-            url: `TUNNEL/?v=${appVersion}`, 
-            splashImageUrl: 'TUNNEL/logo.png'
+            url: `https://github.com/nicky2pc/f_demo/?v=${appVersion}`, 
+            splashImageUrl: 'https://github.com/nicky2pc/f_demo/logo.png'
           },
         },
       };
@@ -37,7 +37,7 @@ export default defineConfig({
   server: {
     port: 3000,
     allowedHosts: [
-      '5abe318fed171fa07244be15c4e93881.serveo.net'
+      'https://github.com/nicky2pc/f_demo'
     ],
     headers: {
       'X-Frame-Options': 'ALLOWALL',
